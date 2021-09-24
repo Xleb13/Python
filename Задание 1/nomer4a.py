@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+sec = int(input("Введите количество секунд: "))
+day = int((sec/86400))
+hours = int(((sec % 86400)/3600))
+minut = int(((sec % 86400) % 3600) / 60)
+seconds = int(((sec % 86400) % 3600) % 60)
+print('Дней: '+str(day))
+print('Часов: '+str(hours))
+print('Минут: '+str(minut))
+print('Секунд: '+str(seconds))
