@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+def strstp():
+    s = input('Введите строку : ')
+    if (s.count('f') == 1):
+        print(-1)
+    elif (s.count('f') == 0):
+        print(-2)
+    else:
+        print(s.find('f', s.find('f') + 1))
+strstp()
